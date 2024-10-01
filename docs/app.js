@@ -21,7 +21,9 @@ function init() {
 		// var url = "http://127.0.0.1:5000/classify_image";
     // var url = "/classify_image";
     // var url = "/api/classify_image"; // This should match your proxy configuration
-    var url = "/api/classify_image"; // This points to your backend on Vercel.
+    // var url = "/api/classify_image"; // This points to your backend on Vercel.
+    var url = "https://image-classification-8ujz.vercel.app/api/classify_image";
+
 
 
 
