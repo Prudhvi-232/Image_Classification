@@ -1,0 +1,9 @@
+{
+	"builds": [
+	  { "src": "server/api/classify_image.py", "use": "@vercel/python" }
+	],
+	"routes": [
+	  { "src": "/api/classify_image", "dest": "/server/api/classify_image.py" }
+	]
+  }
+  

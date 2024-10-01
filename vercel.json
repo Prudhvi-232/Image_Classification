@@ -1,8 +1,0 @@
-{
-	"routes": [
-		{
-			"src": "/api/classify_image",
-			"dest": "/server/api/classify_image.py"
-		}
-	]
-}
